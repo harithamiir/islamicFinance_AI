@@ -1,0 +1,5 @@
+#terminal cmds :python web_app.py : to run web application
+#terminal cmds :python ingest.py : to run data ingestion script
+#python -m venv venv : to create virtual environment
+#source venv/bin/activate : to activate virtual environment
+#pip install -r requirements.txt : to install dependencies from requirements.txt        
