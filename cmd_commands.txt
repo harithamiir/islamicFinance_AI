@@ -3,3 +3,7 @@
 #python -m venv venv : to create virtual environment
 #source venv/bin/activate : to activate virtual environment
 #pip install -r requirements.txt : to install dependencies from requirements.txt        
+
+ssh connection commands
+    **change the public ip add
+    ssh -i "C:\Users\Harith Amir\OneDrive\Documents\Coding Projects\islamic-finance-ai-key.pem" ec2-user@54.159.2.171
