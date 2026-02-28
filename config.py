@@ -26,5 +26,17 @@ CHUNK_OVERLAP: int = 100
 # How many chunks to pull from Qdrant per question
 TOP_K: int = 5
 
+# --- Tavily web search (used for scholar/fatwa questions only) ---
+TAVILY_API_KEY: str | None = os.getenv("TAVILY_API_KEY") or None
+
+# Domains restricted for Tavily search
+TAVILY_DOMAINS = [
+    "isra.my",
+    "muftitaqiusmani.com",
+    "islamqa.info",
+    "daralifta.gov.eg",
+    "iifa-oic.org",
+]
+
 # --- Source types (used as metadata tags on every chunk) ---
-SOURCE_TYPES = ["quran", "hadith", "scholar", "aaoifi"]
+SOURCE_TYPES = ["quran", "hadith", "scholar", "aaoifi", "scholar_web"]
