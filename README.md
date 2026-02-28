@@ -44,7 +44,7 @@ Source documents are stored in **AWS S3**, the application runs in a **Docker co
 
 ## 🏗 Architecture
 
-![Islamic Finance AI Architecture](islamicFInanceAI_architecture_Visualized.png)
+![Islamic Finance AI Architecture]("C:\Users\Harith Amir\OneDrive\Documents\Coding Projects\islamicFInanceAI_architecture_Visualized.png")
 
 
 ```
